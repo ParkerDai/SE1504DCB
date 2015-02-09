@@ -1,0 +1,4 @@
+DCB4DTE 192.168.1.1 root atop
+Stop when fail
+Console show
+Restart login 50

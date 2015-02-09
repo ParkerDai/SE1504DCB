@@ -1,0 +1,18 @@
+DCB4DTE 192.168.1.1 root atop
+Stop when fail
+Console-DUT show
+//Telnet
+//LoadTools
+//LinkMode
+rs232 1-4 5 s
+rs422 1-4 5 s
+rs485 1-4 5 s
+//COM 4 rs232
+DIP SW5
+Jumper JP4
+Restore SW6
+Buzzer
+//Delete
+RTC
+//Restart login 60
+getrtc 60
